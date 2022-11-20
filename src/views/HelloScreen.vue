@@ -144,7 +144,7 @@ export default defineComponent({
           break;
         case ((0 <= dayMinutes && dayMinutes < 300) || (1260 <= dayMinutes && dayMinutes < 9999)):
           natureEllipse_Image = imageLookup("night");
-          natureEllipse_Text = get_random(["Sweet dreams,", "Good night.,"])
+          natureEllipse_Text = get_random(["Sweet dreams,", "Good night,"])
           break;
       }
 
