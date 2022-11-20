@@ -1,7 +1,7 @@
 <template>
     <transition name="show">
         <ion-page>
-            <ion-content :fullscreen="true" v-if="state == 'main' || state == 'main_processing' || state == 'finishing'">
+            <ion-content :fullscreen="true" v-if="state == 'main' || state == 'main_processing' || state == 'finishing'"> 
         
                 <p style="padding: 0px 18px 0px; margin-top: 14rem; margin-bottom: 1rem;">
                     <Vue3Lottie :animationData="require('./../../assets/lottie/preloader.json')" :height="200" :width="200" /></p>
