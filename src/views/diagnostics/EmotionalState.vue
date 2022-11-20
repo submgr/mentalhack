@@ -59,7 +59,7 @@
                       Don't be scared: there is nothing to worry about, there are often times when the level of emotional well-being drops sharply. For example, this can happen in autumn or spring, or due to certain life circumstances.<br><br>The level of emotional state can be restored quite quickly, for this it is recommended to spend more time outdoors. If you're watching movies or TV shows, this is a great time to turn the moment on comedies (an example of such a series is The Big Bang Theory). Meditation will help you dive deeper into yourself, and this is what can help you: we often worry too much where we can do without it.</span></p>
                   </div>
                   <div style="border: 1px solid #ccc!important; background-color: var(--vff-button-color); margin-right: 30%;" @click="goNext">
-                    <span style="font-size: 18px; display: block; font-weight: 500; color: var(--vff-button-text-color); padding: .6em 1.4em;">Продолжить</span>
+                    <span style="font-size: 18px; display: block; font-weight: 500; color: var(--vff-button-text-color); padding: .6em 1.4em;">Continue</span>
                   </div>
                 </div>
               </div>
