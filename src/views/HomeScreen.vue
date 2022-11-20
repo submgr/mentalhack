@@ -1,7 +1,7 @@
 <template>
     <ion-page>
         <ion-content :fullscreen="true">
-            <h1 style="margin-left: 1.1rem; margin-top: 2.4rem; font-weight: 700; font-size: 34px;">Главная</h1>
+            <h1 style="margin-left: 1.1rem; margin-top: 2.4rem; font-weight: 700; font-size: 34px;">Home</h1>
             <div style="padding-top: 1.1rem;">
                 <div @click="onClickButton" >
                     <div class="card-alfa custom-swiper suggestion-block bg-1 card-meditate">
