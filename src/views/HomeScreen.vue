@@ -7,13 +7,13 @@
                     <div class="card-alfa custom-swiper suggestion-block bg-1 card-meditate">
                         <div>
                             <ion-icon :icon="playOutline" style="margin-left: 0.7rem; margin-top: 1.8rem; color: white; font-size: 3rem;" @click="toggleStory"></ion-icon>
-                            <div class="text-a1 suggestion-text text-meditate">Медитация</div>
+                            <div class="text-a1 suggestion-text text-meditate">Begin meditation</div>
                         </div>
                     </div>
                 </div>
                 <div class="card-alfa custom-swiper suggestion-block bg-2">
                     <div>
-                        <div class="text-a1 suggestion-text">Пора улыбнуться, давайте поднимем вам настроение?</div>
+                        <div class="text-a1 suggestion-text">A friendly reminder: it's time to smile! Nothing is impossible, just try it</div>
                     </div>
                 </div>
             </div>

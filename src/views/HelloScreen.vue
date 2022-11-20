@@ -132,19 +132,19 @@ export default defineComponent({
       switch (true) {
         case (300 <= dayMinutes &&  dayMinutes < 660):
           natureEllipse_Image = imageLookup("morning");
-          natureEllipse_Text = get_random(["Доброе утро,", "Салют новому дню,", "Волшебного тебе утра,", "Продуктивного тебе утра,", "Счастливого дня,", "С новым днем,", "Подъем,", "Удачных удач,"])
+          natureEllipse_Text = get_random(["Good morning,", "Salute to a new day,", "Have a magical morning,", "Have a productive morning,", "Have a nice day,", "Happy New Day,", "Rise,", "Good luck,"])
           break;
         case (660 <= dayMinutes &&  dayMinutes < 1080):
           natureEllipse_Image = imageLookup("afternoon");
-          natureEllipse_Text = get_random(["Это прекрасный день,", "У тебя все получится,", "Какой хороший день,", "Сегодня в моде улыбаться,"])
+          natureEllipse_Text = get_random(["It's a wonderful day,", "You're going to do great,", "What a good day.,", "Smiling is in fashion today,"])
           break;
         case (1080 <= dayMinutes && dayMinutes < 1260):
           natureEllipse_Image = imageLookup("evening");
-          natureEllipse_Text = get_random(["Хорошего вечера,", "Время отдохнуть,", "День только начинается,", "Хороших снов,", "Добрых снова,", "Споки-ноки,", "Завтра ты проснешься легко,", "Уютного сна,"])
+          natureEllipse_Text = get_random(["Good evening,", "It's time to take a break,", "The day is just beginning,", "Sleep well,", "Pleasant dreams,", "Nighty-night,", "Tomorrow you will wake up easily,", "Enjoy your sleep,"])
           break;
         case ((0 <= dayMinutes && dayMinutes < 300) || (1260 <= dayMinutes && dayMinutes < 9999)):
           natureEllipse_Image = imageLookup("night");
-          natureEllipse_Text = get_random(["Приятных снов,", "Спокойной ночи,"])
+          natureEllipse_Text = get_random(["Sweet dreams,", "Good night.,"])
           break;
       }
 
